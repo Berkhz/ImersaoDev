@@ -1,2 +1,2 @@
 # ImersaoDev
- Projetos baseados no curso Alura 2022 
+ Projetos baseados no curso ImersãoDev Alura 2022 
