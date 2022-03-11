@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto Mono',monospace;
   min-height: 400px;
-  background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+  background-image: url('../aula1/img/nota-media.png');
   background-color: #000000;
   background-size: 80vh;
   background-position: center bottom;
