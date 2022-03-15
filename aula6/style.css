@@ -5,7 +5,7 @@
   body {
     font-family: "Roboto Mono", monospace;
     min-height: 400px;
-    background-image: url(//ImersaoDev/aula6/img/tabela-classificacao-bg.png)
+    background-image: url('img/tabela-classificacao-bg.png');
     background-color: #111;
     background-size: 100%;
     background-position: center;
