@@ -53,6 +53,10 @@ var carta1 = {
     console.log(cartaMaquina);
   
     var numeroCartaJogador = parseInt(Math.random() * 5);
+    while (numeroCartaMaquina == numeroCartaJogador) {
+      numeroCartaJogador = parseInt(Math.random() * 3);
+    }
+  
     cartaJogador = cartas[numeroCartaJogador];
     console.log(cartaJogador);
   }
