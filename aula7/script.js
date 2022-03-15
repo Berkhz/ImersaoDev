@@ -50,18 +50,20 @@ var cartaJogador;
 function sortearCarta() {
   var numeroCartaMaquina = parseInt(Math.random() * 5);
   cartaMaquina = cartas[numeroCartaMaquina];
-
+}
+  
   var numeroCartaJogador = parseInt(Math.random() * 5);
   while (numeroCartaMaquina == numeroCartaJogador) {
     numeroCartaJogador = parseInt(Math.random() * 3);
-  }
-
   cartaJogador = cartas[numeroCartaJogador];
   console.log(cartaJogador);
+  }
 
   document.getElementById("btnSortear").disabled = true;
   document.getElementById("btnJogar").disabled = false;
-}
+
+  exibirOpcoes();
+
 
 function exibirOpcoes() {
   var opcoes = document.getElementById("opcoes");
@@ -69,7 +71,26 @@ function exibirOpcoes() {
   
   for (var atributo in cartaJogador.atributos) {
     opcoesTexto += 
-      "<input type='radio' name='atributo' value='" + atributo + "'>"" 
+      "<input type='radio' name='atributo' 
+    value='" + 
+      atributo + 
+      "'>"" +
+      atributo;
   }
   opcoes.innerHTML = opcoesTexto;
+}
+
+
+function obtemAtributoSelecionado() {
+  var radioAtributos = document.getElementsByName("atributo");
+  
+  for (var i = 0; i < radioAtributos.lenght; i++) {
+    if (radioAtributos[i].checked) {
+      
+    }
+  }
+}
+
+function jogar() {
+  var atributoSelecionado = obtemAtribudoSelecionado()
 }
