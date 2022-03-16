@@ -27,7 +27,6 @@ body {
   }
   
   header {
-    background-image: url('https://cdn.cinepop.com.br/2021/02/pokemon-list.jpg');
     /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-size   */
     background-size: cover;
     height: 80px;
