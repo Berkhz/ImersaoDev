@@ -7,7 +7,7 @@ body {
     rgba(86, 54, 102, 1) 98%
   );
   font-family: "Roboto Condensed", sans-serif;
-  font-color: white;
+  color: white;
 }
 
 .container {
