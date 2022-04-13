@@ -1,11 +1,10 @@
 body {
-    background-image: url(img/dia-04-aluraflix-e-filmes.png);
-    font-family: "Roboto Mono", monospace;
-    text-align: center;
-    background-color: #000000;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
+  background: url("img/dia-04-aluraflix-e-filmes.png") no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: "Avenir Roman", sans-serif;
   }
   
   .container {
