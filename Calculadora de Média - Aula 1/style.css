@@ -1,11 +1,12 @@
 body {
-  font-family: 'Roboto Mono',monospace;
-  min-height: 400px;
-  background-image: url('img/nota-media.png');
-  background-color: #000000;
-  background-size: 80vh;
-  background-position: center bottom;
-  background-repeat: no-repeat;
+  font-family: "Roboto Mono", monospace;
+    min-height: 854px;
+    background-image: url("img/nota-media.png");
+    background-size: cover;
+    background-color: #000000;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
 }
 
 .container {
