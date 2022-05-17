@@ -1,13 +1,14 @@
-const nome = "Kauan";
-
-const notaDoPrimeiroBimestre = 6.5;
-const notaDoSegundoBimestre = 8.5;
-const notaDoTerceiroBimestre = 10;
-const notaDoQuartoBimestre = 4;
-
-const notaFinal = (notaDoPrimeiroBimestre + notaDoSegundoBimestre + notaDoTerceiroBimestre + notaDoQuartoBimestre) / 4;
-
-const notaSecundaria = notaFinal.toFixed(1)
-
-console.log("Aqui está sua nota " + nome);
-console.log(notaSecundaria);
+function calcularMedia(){
+    var primeiraNota = parseInt(document.getElementById("nota1").value);
+    // console.log(primeiraNota);
+    var segundaNota = parseInt(document.getElementById("nota2").value);
+    // console.log(segundaNota);
+    
+    var media = (primeiraNota+segundaNota)/2;
+    
+    var resultado = document.getElementById("resultado");
+    
+    resultado.innerHTML = "Sua média é: "+media;
+    
+    console.log(media);
+  }
