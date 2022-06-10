@@ -8,7 +8,7 @@ function calcularMedia(){
     
     var resultado = document.getElementById("resultado");
     
-    resultado.innerHTML = "Sua média é: "+media;
+    resultado.innerHTML = "Sua média é: "+ media;
     
     console.log(media);
-  }
+  } 
